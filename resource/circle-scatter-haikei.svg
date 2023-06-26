@@ -1,0 +1,24 @@
+<svg id="visual" viewBox="0 0 960 540" width="960" height="540" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <filter id="glow">
+        <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+        <feMerge>
+            <feMergeNode in="coloredBlur"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+    <g fill="none" stroke="#0586ff" stroke-width="2" filter="url(#glow)">
+        <circle r="71" cx="495" cy="372"></circle>
+        <circle r="3" cx="701" cy="407"></circle>
+        <circle r="47" cx="828" cy="248"></circle>
+        <circle r="50" cx="584" cy="94"></circle>
+        <circle r="14" cx="359" cy="279"></circle>
+        <circle r="26" cx="98" cy="116"></circle>
+        <circle r="14" cx="160" cy="344"></circle>
+        <circle r="15" cx="263" cy="122"></circle>
+        <circle r="62" cx="732" cy="93"></circle>
+        <circle r="17" cx="438" cy="135"></circle>
+        <circle r="4" cx="885" cy="455"></circle>
+        <circle r="24" cx="670" cy="258"></circle>
+        <circle r="63" cx="377" cy="460"></circle>
+    </g>
+</svg>

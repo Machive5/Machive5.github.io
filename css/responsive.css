@@ -1,0 +1,419 @@
+@media only screen and (max-width: 1440px){
+    #popup p{
+        font-size: max(calc(0.3rem + 0.8vw), 11px);
+        padding: 0.5vw;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    #popup{
+        width: 35vw;
+        height: 43vw;
+        min-width: 308px;
+        min-height: 379px;
+        grid-template-columns: 100%;
+        grid-template-rows: 43% 8% 41% 8% ;
+        
+    }
+    #popup .close{
+        width: 7%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    p{
+        font-size: calc(0.3rem + 0.9vw);
+    }
+    #popup .visit{
+        font-size: calc(0.3rem + 0.9vw);
+    }
+    #popup .github{
+        font-size: calc(0.3rem + 0.9vw);
+    }
+    #aboutme h1{
+        font-size: calc(1.5rem + 2vw);
+    }
+    #skills h1{
+        font-size: calc(0.7rem + 2vw);
+    }
+    #skills h5{
+        font-size: calc(0.3rem + 2vw);
+    }
+    #projects h3{
+        font-size: calc(0.5rem + 2vw);
+    }
+    #projects h4{
+        font-size: calc(0.4rem + 2vw);
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #home{
+        height: 70vw;
+    }
+    #home div:nth-child(4){
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 42%;
+    }
+    #aboutme {
+        height: 70vw;
+    }
+    #skills {
+        height: 70vw;
+    } 
+    #projects {
+        height: 70vw;
+    }
+    #social {
+        height: 70vw;
+    }
+
+    #home h1{
+        font-size: calc(1.5rem + 2vw);
+    }
+    #aboutme h1{
+        font-size: calc(1.2rem + 2vw);
+    }
+    #skills h1{
+        font-size: calc(0.7rem + 2vw);
+    }
+    #skills h5{
+        font-size: calc(0.2rem + 2vw);
+    }
+    #projects h3{
+        font-size: calc(0.5rem + 2vw);
+    }
+    #projects h4{
+        font-size: calc(0.4rem + 2vw);
+    }
+    #social h1{
+        font-size: calc(1rem + 2vw);
+    }
+    #social .card{
+        height: 40%;
+        width: 30%;
+    }
+
+    p{
+        font-size: calc(0.4rem + 0.9vw);
+        padding: 0.5vw;
+    }
+    #popup .visit{
+        font-size: calc(0.4rem + 0.9vw);
+    }
+    #popup .github{
+        font-size: calc(0.4rem + 0.9vw);
+    }
+
+    #popup{
+        width: 35vw;
+        height: 43vw;
+        grid-template-columns: 100%;
+        grid-template-rows: 45% 8% 39% 8% ;
+        
+    }
+}
+
+@media only screen and (max-width: 678px){
+    nav ul{
+        display: none;
+    }
+    #ham{
+        display: block;
+        position: fixed;
+        right: 5%;
+        top: 1%;
+        z-index: 999;
+    }
+    h4{
+        width: 85vw;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 622px){
+    #skills{
+        width: 100%;
+        height: 200vw;
+        max-height: none;
+        grid-template-columns: 100%;
+        grid-template-rows: 3% 59% 38%;
+    }
+    #skills .one{
+        grid-template-columns: 100%;
+        grid-template-rows: 33% 33% 33%;
+    }
+    #skills .two{
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+    #skills .one div .wrapper, #skills .two div .wrapper{
+        width: 100%;
+        height: 85%;
+    }
+    #skills .one div .wrapper svg, #skills .two div .wrapper svg{
+        width: 10%;
+    }
+    #skills .one div{
+        width: 100%;
+        height: 100%;
+    }
+    #skills .two div{
+        width: 100%;
+        height: 100%;
+    }
+    #skills .one, #skills .two{
+        justify-items: center;
+        align-items: start;
+    }
+
+    #home h1{
+        font-size: calc(1.5rem + 2vw);
+    }
+    #aboutme h1{
+        font-size: calc(1.2rem + 2vw);
+    }
+    #skills h1{
+        font-size: calc(0.7rem + 2vw);
+    }
+    #skills h5{
+        font-size: calc(0.2rem + 2vw);
+    }
+    #projects h3{
+        font-size: calc(0.5rem + 2vw);
+    }
+    #projects h4{
+        font-size: calc(0.4rem + 2vw);
+    }
+    #social h1{
+        font-size: calc(1rem + 2vw);
+    }
+    #social .card{
+        height: 40%;
+        width: 30%;
+    }
+
+    p{
+        font-size: calc(0.5rem + 0.7vw);
+        padding: 0.5vw;
+    }
+    #popup .visit{
+        font-size: calc(0.5rem + 0.7vw);
+    }
+    #popup .github{
+        font-size: calc(0.5rem + 0.7vw);
+    }
+
+    #home{
+        height: 100vh;
+    }
+    #home div:nth-child(4){
+        width: 100%;
+        height: 100%;
+        margin-top: 80vh;
+    }
+    #aboutme {
+        height: 100vh;
+    }
+    #projects {
+        height: 70vw;
+    }
+    #social {
+        height: 100vh;
+    }
+
+    #social .card{
+        height: 40%;
+        width: 50%;
+    }
+    #aboutme{
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 100%;
+    }
+    #aboutme img{
+        width: 60%;
+        box-sizing: border-box;
+        z-index: 3;
+    }
+}
+
+@media only screen and (min-height: 700px) and (min-width: 425px) and (max-width: 912px){
+    #popup{
+        width: 55vw;
+        height: 73vw;        
+    }
+    #popup p{
+        font-size: max(calc(0.6rem + 0.9vw), 10px);
+        padding: 1vw;
+    }
+    #popup .visit{
+        font-size: calc(0.5rem + 0.9vw);
+    }
+    #popup .github{
+        font-size: calc(0.5rem + 0.9vw);
+    }
+}
+@media only screen and (min-height: 700px) and (min-width: 425px) and (max-width: 768px){
+    #popup{
+        width: 55vw;
+        height: 73vw;        
+    }
+    #popup p{
+        font-size: max(calc(0.4rem + 0.9vw), 10px);
+        padding: 1vw;
+    }
+    #popup .visit{
+        font-size: calc(0.4rem + 0.9vw);
+    }
+    #popup .github{
+        font-size: calc(0.4rem + 0.9vw);
+    }
+}
+
+@media only screen and (min-width: 550px){   
+    h4{
+        margin-left: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 550px){
+    #home{
+        height: 100vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+    #home img{
+        width: calc(35% + 8vh);
+        border-radius: 57% 43% 74% 26% / 53% 64% 36% 47% ;
+    }
+    #home p{
+        text-align: center;
+    }
+    #home div:nth-child(4){
+        width: 100%;
+        height: 100%;
+        margin-top: 86vh;
+    }
+    #skills{
+        width: 100%;
+        height: 200vh;
+    }
+    #skills .one div .wrapper svg, #skills .two div .wrapper svg{
+        width: 10vh;
+        height: 13vh;
+    }
+
+    #aboutme {
+        height: 100vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+    }
+    #aboutme img{
+        width: 70%;
+        height: 70%;
+        box-sizing: border-box;
+        z-index: 3;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    #aboutme p, #aboutme h1{
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #projects {
+        height: 100vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+    #projects div .crd{
+        width: 100%;
+        max-height: 35%;
+    }
+    #social {
+        height: 100vh;
+    }
+
+    #home h1{
+        font-size: calc(1.5rem + 2vw);
+        text-align: center;
+    }
+    #aboutme h1{
+        font-size: calc(1.2rem + 2vw);
+    }
+    #skills h1{
+        font-size: calc(1rem + 2vw);
+    }
+    #skills h5{
+        font-size: calc(0.7rem + 2vw);
+    }
+    #projects h3{
+        font-size: calc(0.5rem + 2vw);
+    }
+    #projects h4{
+        font-size: calc(0.4rem + 2vw);
+    }
+    #social h1{
+        font-size: calc(1rem + 2vw);
+    }
+    #social .card{
+        height: 40vw;
+        width: 30vw;
+    }
+
+    p{
+        font-size: calc(0.5rem + 0.9vw);
+        padding: 0.5vw;
+    }
+    #popup p{
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    #popup .visit{
+        font-size: calc(0.5rem + 0.9vw);
+    }
+    #popup .github{
+        font-size: calc(0.5rem + 0.9vw);
+    }
+}
+
+@media only screen and (max-width: 361px){
+    #home{
+        height: 100vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+    }
+    #home img{
+        margin-top: 30%;
+        width: calc(35% + 9vh);
+        border-radius: 57% 43% 74% 26% / 53% 64% 36% 47% ;
+    }
+    #home div:nth-child(4){
+        width: 100%;
+        height: 100%;
+        margin-top: 90vh;
+    }
+
+    #popup{
+        width: 35vw;
+        height: 43vw;
+        min-width: 250px;
+        min-height: 300px;
+        grid-template-columns: 100%;
+        grid-template-rows: 43% 8% 41% 8% ;
+        
+    }
+    #popup .close{
+        width: 7%;
+    }
+    #popup p{
+        font-size: max(calc(0.3rem + 0.8vw), 10px);
+        padding: 0.5vw;
+    }
+}
+
