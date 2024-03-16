@@ -24,14 +24,14 @@ const description = [
     },
     {
         name:'bell',
-        title: 'Bell AI',
-        description:`Actually Bell is a name for my projects which is about AI, or machine learning. So it's not a major project but just my experiment when I learn about AI or machine learning. That's why I didn,t put the project on github or made it public. currently Bell has been able to read and send whatsapp messages using whatsapp-web.js API and character.ai API.`,
+        title: 'Bell Chat Bot',
+        description:`Bell is a chatbot for WhatsApp. I plan for Bell to be able to give responses to everyone who texts her, provide some games to play, and offer useful features. In the future, I hope that Bell can become a helpful AI.`,
         img:'resource/wepik-export-20230617115658r34g.png'
     },
     {
         name:'rpgGame',
         title: 'RPG Game',
-        description:`This is actually my project wiith my friends. We haven't decided for the title yet, but we have already started working on creating the assets we need. We have no experience on game development before. It's really our first time.`,
+        description:`I actually want to make this project with my friend, but we are still in our own businesses. I'm really looking forward for this project done.`,
         img: 'resource/rpg.jpg'
     }
 ];
