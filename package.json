@@ -1,11 +1,15 @@
 {
   "name": "machive5.github.io",
   "version": "2.0.0",
-  "description": "profile website",
+  "description": "Profile Website",
   "main": "index.js",
   "scripts": {
+    "start": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Machive5",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "animejs": "^3.2.2"
+  }
 }
