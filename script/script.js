@@ -60,6 +60,20 @@ anime({
     loop: 1,
 });
 
+// ------------------------------------------ skils animation ---------------------------------------------
+anime.timeline({autoplay:true,}).add({
+    targets: ".skill h1",
+    opacity: [0,1],
+    duration: 500,
+    easing: "easeInSine"
+}).add({
+    targets: ".skill .wrap .card",
+    scale: [0,1],
+    duration: 300,
+    easing: "easeInSine",
+    delay: anime.stagger(100)
+})
+
 // ------------------------------------------ animating MACHIVES SVG --------------------------------------
 
 anime({
